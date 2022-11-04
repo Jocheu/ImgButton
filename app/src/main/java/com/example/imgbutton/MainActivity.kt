@@ -15,23 +15,43 @@ class MainActivity : AppCompatActivity() {
         var imgBtn4 = findViewById<ImageButton>(R.id.imageButton5)
         var imgBtn5 = findViewById<ImageButton>(R.id.imageButton6)
         imgBtn1.setOnClickListener {
-            imgBtn1.alpha = 0.5f
+            if(imgBtn1.alpha == 1f){
+                imgBtn1.alpha = 0.5f
+            }else{
+                imgBtn1.alpha = 1f
+            }
             Toast.makeText(this,"Chleb", Toast.LENGTH_SHORT).show()
         }
         imgBtn2.setOnClickListener {
-            imgBtn2.alpha = 0.5f
+            if(imgBtn2.alpha == 1f){
+                imgBtn2.alpha = 0.5f
+            }else{
+                imgBtn2.alpha = 1f
+            }
             Toast.makeText(this,"Świstak", Toast.LENGTH_SHORT).show()
         }
-        imgBtn1.setOnClickListener {
-            imgBtn1.alpha = 0.5f
+        imgBtn3.setOnClickListener {
+            if(imgBtn3.alpha == 1f){
+                imgBtn3.alpha = 0.5f
+            }else{
+                imgBtn3.alpha =1f
+            }
             Toast.makeText(this,"Kevin", Toast.LENGTH_SHORT).show()
         }
-        imgBtn1.setOnClickListener {
-            imgBtn1.alpha = 0.5f
+        imgBtn4.setOnClickListener {
+            if(imgBtn4.alpha == 1f){
+                imgBtn4.alpha = 0.5f
+            }else{
+                imgBtn4.alpha = 1f
+            }
             Toast.makeText(this,"Co on paczy?", Toast.LENGTH_SHORT).show()
         }
-        imgBtn1.setOnClickListener {
-            imgBtn1.alpha = 0.5f
+        imgBtn5.setOnClickListener {
+            if(imgBtn5.alpha == 1f){
+                imgBtn5.alpha = 0.5f
+            }else{
+                imgBtn5.alpha = 1f
+            }
             Toast.makeText(this,"Supreme patriarch of the empire", Toast.LENGTH_SHORT).show()
         }
 
